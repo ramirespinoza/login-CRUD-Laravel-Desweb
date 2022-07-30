@@ -21,6 +21,7 @@ class CreateCustomerTable extends Migration
             $table->timestamps();
             $table->integer("category_id")->unsigned()->index()->nullable();
             $table->foreign('category_id')->references('id_category')->on('category')->onDelete('cascade');
+            $table->string("owner");
         });
     }
 
