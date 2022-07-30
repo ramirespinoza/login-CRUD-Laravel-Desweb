@@ -1,0 +1,50 @@
+.form-box {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 4px 4px 8px black;
+    margin-top: 50px;
+}
+
+.card-header.form-box__header {
+    text-align: center;
+    border-radius: 25px;
+    /* border:1px solid gray; */
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    top: -25px;
+    background-color: #f0f0f0;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.form-box__input {
+    border-radius: 15px;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+
+.form-box__button{
+    border-radius: 15px;
+    width: 50%;
+}
+
+.form-box__link {
+    text-decoration: none;
+}
+
+.form-box__checkbox {
+    border-radius: 50%;
+}
+
+.form-box__buttons {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;    
+}
+
+.form-box__buttons > div {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}

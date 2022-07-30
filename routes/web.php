@@ -20,3 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('category', 'CategoryController');
+Route::resource('customer', 'CustomerController');
+// Route::get('/category', 'CategoryController@index')->name('category');
+// Route::get('/customer', 'CustomerController@index')->name('customer');
